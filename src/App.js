@@ -256,7 +256,6 @@ function App() {
                   window.open(CONFIG.MARKETPLACE_LINK, "_blank");
                 }}
               >Website
-                {CONFIG.MARKETPLACE}
               </StyledButton>
             </span>
             <s.SpacerSmall />
