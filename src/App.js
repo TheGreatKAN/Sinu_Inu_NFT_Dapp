@@ -279,10 +279,9 @@ function App() {
             ) : (
               <>
                 <s.TextTitle
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                  style={{ textAlign: "center", color: "var(--accent-text)" "fontWeight: "bold" }}
                 >
-                  1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "}
-                  {CONFIG.NETWORK.SYMBOL}
+                  1 SInft costs .05 BNB
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
