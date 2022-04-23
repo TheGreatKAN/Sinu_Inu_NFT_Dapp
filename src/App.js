@@ -4,6 +4,7 @@ import { connect } from "./redux/blockchain/blockchainActions";
 import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
+import TextLink from "@kiwicom/orbit-components/lib/TextLink";
 
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
@@ -405,7 +406,7 @@ function App() {
           >
             Please make sure you are connected to the right network (
             {CONFIG.NETWORK.NAME} Mainnet) and the correct address. Please note:
-            Once you make the purchase, you cannot undo this action.
+            Once you make the purchase, you cannot <TextLink> undo this action. </TextLink>
           </s.TextDescription>
           <s.SpacerSmall />
           <s.TextDescription
@@ -414,9 +415,7 @@ function App() {
               color: "var(--footer)",
             }}
           >
-            We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
-            successfully mint your NFT. We recommend that you don't lower the
-            gas limit.
+            Visit 
           </s.TextDescription>
         </s.Container>
       </s.Container>
