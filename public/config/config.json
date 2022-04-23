@@ -6,8 +6,8 @@
     "SYMBOL": "BNB",
     "ID": 97
   },
-  "NFT_NAME": "Sifu Inu NFTs",
-  "SYMBOL": "SIFUnft",
+  "NFT_NAME": "Sifu Inu NFT",
+  "SYMBOL": "SInft",
   "MAX_SUPPLY": 500,
   "WEI_COST": 150000000000000000,
   "DISPLAY_COST": 4,
