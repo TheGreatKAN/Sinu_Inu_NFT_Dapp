@@ -401,8 +401,6 @@ function App() {
             style={{
               textAlign: "center",
               color: "var(--footer)",
-                   font-family: "Poppins"; font-size: 22px,
-                   
             }}
           >
             Please make sure you are connected to the right network (
