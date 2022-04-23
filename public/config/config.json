@@ -10,7 +10,7 @@
   "SYMBOL": "SInft",
   "MAX_SUPPLY": 500,
   "WEI_COST": 150000000000000000,
-  "DISPLAY_COST": 4,
+  "DISPLAY_COST": .05,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "",
   "MARKETPLACE_LINK": "https://sifuinu.io/",
