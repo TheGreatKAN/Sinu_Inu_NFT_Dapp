@@ -117,6 +117,7 @@ function App() {
     GAS_LIMIT: 0,
     MARKETPLACE: "",
     MARKETPLACE_LINK: "",
+    WEBSITE: "",
     SHOW_BACKGROUND: false,
   });
 
