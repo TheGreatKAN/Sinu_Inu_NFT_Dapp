@@ -1,18 +1,19 @@
 {
-  "CONTRACT_ADDRESS": "0xC11CA4A973fD1240213A3FbE980cbDc847855c6F",
-  "SCAN_LINK": "https://testnet.bscscan.com/address/0xC11CA4A973fD1240213A3FbE980cbDc847855c6F",
+  "CONTRACT_ADDRESS": "0x3252C7800423f0FD9f8aa96fb653fC0C93Ed64a9",
+  "SCAN_LINK": "https://bscscan.com/address/0x3252C7800423f0FD9f8aa96fb653fC0C93Ed64a9",
   "NETWORK": {
-    "NAME": "BSC Testnet",
+    "NAME": "Binance",
     "SYMBOL": "BNB",
-    "ID": 97
+    "ID": 56
   },
   "NFT_NAME": "Sifu Inu NFT",
   "SYMBOL": "SInft",
   "MAX_SUPPLY": 500,
-  "WEI_COST": 150000000000000000,
-  "DISPLAY_COST": 4,
+  "WEI_COST": 50000000000000000,
+  "DISPLAY_COST": 1,
   "GAS_LIMIT": 285000,
-  "MARKETPLACE": "",
-  "MARKETPLACE_LINK": "https://sifuinu.io/",
+  "MARKETPLACE": "OBLIVION.ART",
+  "WEBSITE": "sifuinu.io",
+  "MARKETPLACE_LINK": "https://oblivion.art/explore/listings",
   "SHOW_BACKGROUND": true
 }
